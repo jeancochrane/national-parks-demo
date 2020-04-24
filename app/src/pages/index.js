@@ -13,7 +13,6 @@ import {
   Results,
   SearchBox
 } from "@elastic/react-search-ui"
-import "@elastic/react-search-ui-views/lib/styles/styles.css"
 
 import Result from "../components/result"
 import SEO from "../components/seo"
