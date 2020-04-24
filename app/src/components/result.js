@@ -38,7 +38,7 @@ const Result = ({ result, onClickLink, titleField, urlField }) => {
       </div>
       <div className="sui-result__body">
         <div className="sui-result__details">
-          {fields.world_heritage_site && (
+          {fields.world_heritage_site === 'true' && (
             <span style={{background: "lightyellow", padding: "2px", marginBottom: "2px"}}>
               World heritage site
             </span>
